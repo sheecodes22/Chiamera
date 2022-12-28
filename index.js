@@ -1,15 +1,3 @@
-/* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
-function openNav() {
-  document.getElementById("mySidebar").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-}
-
-/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
-function closeNav() {
-  document.getElementById("mySidebar").hidden= true;
-  document.getElementById("main").style.marginLeft = "0";
-}
-
 // Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
@@ -33,6 +21,7 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 4000); // Change image every 4 seconds
 }
+
 
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
