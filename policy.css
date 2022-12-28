@@ -1,0 +1,71 @@
+body{
+    background-color: #f7e7ce;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #f7e7ce;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color:  #B76E79;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: fixed;
+    display: inline-block;
+    float: left;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+.policy{
+    background-color: white;
+    border: none;
+    box-shadow: 5px 10px 8px 10px #d4af37;
+    margin: 1% 20% 2% 20%;
+    float: left;  
+}
+
+.policyDesc{
+    float: left;
+    width:90%;
+    padding:1% 5%;
+    font-size:20px;
+}
+
+.policyTitle{
+    font-family: 'Dancing Script', cursive;
+    font-size:35px;
+    text-align: center;
+    font-size: 45px; 
+}
