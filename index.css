@@ -41,7 +41,7 @@ body{
 
 
 .slideshow li:nth-child(1) span { 
-    background-image: url("pic1.jpg"); 
+    background-image: url("pic1.jpeg"); 
 }
 .slideshow li:nth-child(2) span { 
     background-image: url("pic2.jpg");
